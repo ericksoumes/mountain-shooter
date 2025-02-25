@@ -20,6 +20,20 @@ ENTITY_SPEED = {
     'Enemy2': 1
 }
 
+ENTITY_HEALTH = {
+    'level-um-bg1': 999,
+    'level-um-bg2': 999,
+    'level-um-bg3': 999,
+    'level-um-bg4': 999,
+    'level-um-bg5': 999,
+    'level-um-bg6': 999,
+    'level-um-bg7': 999,
+    'Player1': 300,
+    'Player2': 300,
+    'Enemy1': 50,
+    'Enemy2': 60
+}
+
 # M
 MENU_OPTION = ('NEW GAME 1P',
                'NEW GAME 2P - COOPERATIVE',
@@ -50,7 +64,6 @@ PLAYER_KEY_SHOOT = {
 
 # S
 SPAWN_TIME = 4000
-
 
 # W
 WIN_WIDTH = 576
