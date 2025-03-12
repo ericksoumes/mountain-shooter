@@ -9,14 +9,21 @@ C_CYAN = (0, 128, 128)
 
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
+EVENT_TIMEOUT = pygame.USEREVENT + 2
 ENTITY_SPEED = {
-    'level-um-bg1': 0,
-    'level-um-bg2': 1,
-    'level-um-bg3': 2,
-    'level-um-bg4': 3,
-    'level-um-bg5': 4,
-    'level-um-bg6': 5,
-    'level-um-bg7': 6,
+    'Level1Bg1': 0,
+    'Level1Bg2': 1,
+    'Level1Bg3': 2,
+    'Level1Bg4': 3,
+    'Level1Bg5': 4,
+    'Level1Bg6': 5,
+    'Level1Bg7': 6,
+    'Level2Bg1': 0,
+    'Level2Bg2': 1,
+    'Level2Bg3': 2,
+    'Level2Bg4': 3,
+    'Level2Bg5': 4,
+    'Level2Bg6': 5,
     'Player1': 3,
     'Player1Shot': 1,
     'Player2': 3,
@@ -28,13 +35,18 @@ ENTITY_SPEED = {
 }
 
 ENTITY_HEALTH = {
-    'level-um-bg1': 999,
-    'level-um-bg2': 999,
-    'level-um-bg3': 999,
-    'level-um-bg4': 999,
-    'level-um-bg5': 999,
-    'level-um-bg6': 999,
-    'level-um-bg7': 999,
+    'Level1Bg1': 999,
+    'Level1Bg2': 999,
+    'Level1Bg3': 999,
+    'Level1Bg4': 999,
+    'Level1Bg5': 999,
+    'Level1Bg6': 999,
+    'Level1Bg7': 999,
+    'Level2Bg1': 999,
+    'Level2Bg2': 999,
+    'Level2Bg3': 999,
+    'Level2Bg4': 999,
+    'Level2Bg5': 999,
     'Player1': 300,
     'Player1Shot': 1,
     'Player2': 300,
@@ -52,13 +64,18 @@ ENTITY_SHOT_DELAY = {
     'Enemy2': 200
 }
 ENTITY_DAMAGE = {
-    'level-um-bg1': 0,
-    'level-um-bg2': 0,
-    'level-um-bg3': 0,
-    'level-um-bg4': 0,
-    'level-um-bg5': 0,
-    'level-um-bg6': 0,
-    'level-um-bg7': 0,
+    'Level1Bg1': 0,
+    'Level1Bg2': 0,
+    'Level1Bg3': 0,
+    'Level1Bg4': 0,
+    'Level1Bg5': 0,
+    'Level1Bg6': 0,
+    'Level1Bg7': 0,
+    'Level2Bg1': 0,
+    'Level2Bg2': 0,
+    'Level2Bg3': 0,
+    'Level2Bg4': 0,
+    'Level2Bg5': 0,
     'Player1': 1,
     'Player1Shot': 25,
     'Player2': 1,
@@ -69,13 +86,18 @@ ENTITY_DAMAGE = {
     'Enemy2Shot': 15
 }
 ENTITY_SCORE = {
-    'level-um-bg1': 0,
-    'level-um-bg2': 0,
-    'level-um-bg3': 0,
-    'level-um-bg4': 0,
-    'level-um-bg5': 0,
-    'level-um-bg6': 0,
-    'level-um-bg7': 0,
+    'Level1Bg1': 0,
+    'Level1Bg2': 0,
+    'Level1Bg3': 0,
+    'Level1Bg4': 0,
+    'Level1Bg5': 0,
+    'Level1Bg6': 0,
+    'Level1Bg7': 0,
+    'Level2Bg1': 0,
+    'Level2Bg2': 0,
+    'Level2Bg3': 0,
+    'Level2Bg4': 0,
+    'Level2Bg5': 0,
     'Player1': 0,
     'Player1Shot': 0,
     'Player2': 0,
@@ -116,6 +138,10 @@ PLAYER_KEY_SHOOT = {
 
 # S
 SPAWN_TIME = 4000
+
+# T
+TIMEOUT_STEP = 100  # ms
+TIMEOUT_LEVEL = 20000  # s
 
 # W
 WIN_WIDTH = 576
